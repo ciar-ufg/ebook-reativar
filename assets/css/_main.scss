@@ -162,7 +162,6 @@ article {
 
 
 	}
-
 	//CITACAO//
 	blockquote {
 		font-size: 0.9em;
@@ -253,6 +252,21 @@ article {
 		}
 	}
 }
+
+/// ALIEN //
+	.alien-char {
+    display: inline-block;
+    vertical-align: middle; 
+    height: 1.8em;          
+    margin: 0 2px;         
+}
+
+.alien-char img {
+    height: 100%;          
+    width: auto;
+    display: block;
+}
+
 
 
 

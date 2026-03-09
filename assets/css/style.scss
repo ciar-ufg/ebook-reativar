@@ -196,63 +196,63 @@ body {
 	&.livro4 {
 		article {
 			h1, h2, h3, h4, h5 {
-				color: $azul;
+				color: $verde;
 			}
 			.contracapa {
 				&:before {
-				background-color: $laranja;
+				background-color: $verde;
 				}
 				hr {
-					background-color: $laranja;
+					background-color: $verde;
 				}
 			}
 			p.dialogo {
-				color: $azul;
+				color: $verde;
 			}
 
 			button.bt-nota{
 				&.atual{
-					background-color: $azul;
+					background-color: $verde;
 				}
 			}
 		}
-		.fichalivro h3 { color: $azul; }
+		.fichalivro h3 { color: $verde; }
 		.headerindex { background-image: url(../img/bg_index4.svg); }
 		.tituloum { img { width: 500px; } }
 		.headerconteudo { background-image: url(../img/topobg4.svg); }
 		.botoes_index {
 			a { 	
-				background-color: $laranja;
+				background-color: $verde;
 				&:hover {
-					color: $laranja;
+					color: $verde;
 					background-color: $branco;
 				}
 			}
 		}
 		a.iniciarebook {
-			background: $azul;
-			border-color: $azul;
-			&:hover { color: $azul !important; }
-			&:before { background: $azul; }
+			background: $verde;
+			border-color: $verde;
+			&:hover { color: $verde !important; }
+			&:before { background: $verde; }
 		}
 		.footerconteudo .container { 
 			a.sumariofooter { 
-				color: $azul; 
+				color: $verde; 
 				&:hover { 
-					color: $laranja;
+					color: $verde;
 				}
 			}
 			a.proximo, a.anterior {
-				background-color: $azul
+				background-color: $verde;
 			}
 		}
 		.listasumario {
 			p.paginasumario {
-				&:before, span { background-color: $azul; }
+				&:before, span { background-color: $verde; }
 			}
 		}
 		#notas-rodape {
-			border-color: $azul; 
+			border-color: $verde; 
 		}
 	}
 }
