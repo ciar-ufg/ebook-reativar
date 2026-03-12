@@ -90,6 +90,18 @@
 			background: $azul;
 			}
 		}
+
+		&:nth-child(4) {
+			svg {
+				margin-top: 45px;
+				path {
+					fill: $verde;
+				}
+			}
+			&:hover {
+			background: $verde;
+			}
+		}
 		svg {
 			width: 75%;
 			display: inline-block;
