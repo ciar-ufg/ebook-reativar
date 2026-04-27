@@ -254,6 +254,17 @@ article {
 		strong {
 			color: #0C6140;
 		}
+
+		a { color: #0C6140;
+			overflow-wrap: break-word;
+  			word-wrap: break-word;
+  			word-break: break-word;
+		}
+
+		ol {
+			list-style: decimal;
+			margin-left: 10px;
+		}
 	}
 }
 
